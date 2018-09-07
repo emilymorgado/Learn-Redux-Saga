@@ -4,11 +4,17 @@ export {
     initIngredients,
     setIngredients,
     fetchIngredientsFailed,
+    fetchOrdersSuccess,
+    fetchOrdersStart,
+    fetchOrdersFail,
 } from './burgerBuilder';
 export {
     purchaseBurger,
     purchaseInit,
     fetchOrders,
+    purchaseBurgerStart,
+    purchaseBurgerFail,
+    purchaseBurgerSuccess,
 } from './order';
 export {
     auth,

@@ -76,8 +76,8 @@ export const fetchOrders = (token, userId) => {
                 }
                 dispatch(fetchOrdersSuccess(fetchedOrders));
             } )
-            .catch( err => {
-                dispatch(fetchOrdersFail(err));
+            .catch( error => {
+                dispatch(fetchOrdersFail(error));
             } );
     };
 };
